@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Exile&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg fixed-top transparent-header">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a href="#" class="navbar-brand ms-3">
+                <h1 class="tittle">CashMap</h1>
+            </a>
+
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto menu text-center">
+                    <li class="nav-item"><a class="nav-link navegacao" href="#">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link navegacao" href="#">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link navegacao" href="#">Ajuda</a></li>
+                    <li class="nav-item"><a class="nav-link navegacao" href="#">Planos</a></li>
+                </ul>
+                <div class="text-end me-3">
+                    <a href="#" class="login btn btn-outline-light rounded-pill px-4 py-2">Entrar</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container-fluid pgPrincipal d-flex justify-content-between align-items-end px-5">
+            <h1 class="fw-bold display-6 m-3">
+                Assuma o controle do seu dinheiro.<br>
+                Simples, seguro e na palma da sua mão.
+            </h1>
+            <button type="button" class="btn btn-outline-light px-4 py-2">Cadastrar</button>
+        </section>
+
+        <section class="container-fluid pg2 d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-end">
+                    <h2>Gerencie suas finanças com eficiência, clareza e inteligência.</h2>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <p>Nosso sistema foi desenvolvido para oferecer uma solução robusta e confiável de controle
+                        financeiro
+                        pessoal. Com uma interface clara e intuitiva, você acompanha em tempo real seus gastos,
+                        receitas,
+                        metas e investimentos, tudo centralizado em um único painel. Elimine planilhas manuais, reduza
+                        erros
+                        e tome decisões baseadas em dados precisos. Automatize o que for possível e foque no que
+                        realmente
+                        importa: melhorar sua saúde financeira.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid pg2 d-flex justify-content-center align-items-center">
+            <div class="container-fluid pg2 d-flex imagem-container row d-flex justify-content-center">
+                <img src="./images/1235.jpg" alt="Imagem 2" class="img-principal img-fluid col-lg-6 col-md-12">
+                <img src="./images/m2.jpg" alt="Imagem 1" class="img-principal col-lg-6 col-md-12 img-fluid">
+            </div>
+        </section>
+
+        <section class="cadastro-section container py-5" id="cadastro">
+            <div class="row align-items-center">
+                <div class="col-md-6 cadastrotxt">
+                    <h2 class="fw-bold text-uppercase">Cadastre-se agora</h2>
+                    <p>Crie sua conta gratuita para ter acesso total ao painel financeiro CashMap.
+                        Com ele, você poderá controlar despesas, definir metas, acompanhar investimentos
+                        e garantir uma gestão mais inteligente do seu dinheiro.</p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-lg-6 col-xs-12 mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Seu nome" required>
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <label for="sobrenome" class="form-label">Sobrenome</label>
+                                <input type="text" id="sobrenome" class="form-control" placeholder="Seu sobrenome">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-lg-6  col-xs-12 mb-3">
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="tel" id="telefone" class="form-control"
+                                    placeholder="Insira seu numero de telefone" required>
+                            </div>
+
+                            <div class="col-lg-6  col-xs-12 ">
+                                <label for="dataNascimento" class="form-label">Data de nascimento</label>
+                                <input type="date" id="dataNascimento" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" id="email" class="form-control" placeholder="email@exemplo.com"
+                                required>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-lg-6 col-xs-12 mb-3">
+                                <label for="senha" class="form-label">Senha</label>
+                                <input type="password" id="senha" class="form-control"
+                                    placeholder="Crie uma senha segura" required>
+                            </div>
+                            <div class="col-lg-6 col-xs-12 mb-3">
+                                <label for="senha" class="form-label">Confirmar Senha</label>
+                                <input type="password" id="senha" class="form-control"
+                                    placeholder="Crie uma senha segura" required>
+                            </div>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-dark rounded-pill px-4 py-2 ">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid d-flex justify-content-center align-items-center citacao flex-column">
+            <div><img src="./images/icon-logo.png" class="img-logo" alt="img-logo"></div>
+            <blockquote>
+                <h3>"Quem não controla o próprio dinheiro, acaba sendo controlado por ele. O planejamento financeiro é a
+                    chave para a liberdade."</h3>
+            </blockquote>
+        </section>
+    </main>
+
+
+    <footer class="row">
+        <div class="roda col-5">
+            <h3>Suporte</h3>
+            <ul>
+                <li><a href="#">Termos e Condições</a>
+                    <a href="#">Politicas de Privacidade</a>
+                    <a href="#">Perguntas Frequentes</a>
+                </li>
+            </ul>
+        </div>
+        <div class="roda col-5 ">
+
+            <h3>Contato</h3>
+
+            <ul>
+                <li><a href="#">guilhermeriba159@gmail.com</a>
+                    <a href="#">11-972350514</a>
+
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled-header');
+            } else {
+                header.classList.remove('scrolled-header');
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
